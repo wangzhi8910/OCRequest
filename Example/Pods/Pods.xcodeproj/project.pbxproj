@@ -34,7 +34,6 @@
 		7E2C1FB066BC73759D0BD6814F180688 /* YTKChainRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A15D7C9158D0CB0AED2D846D420E59 /* YTKChainRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83009F0922BA92B815BFCF608F9FDA0A /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F6B3D909EB26A52C41C09F37B6C4C /* YTKNetworkPrivate.m */; };
 		886A3E9DD91C94BAED7C9146695420F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC510557CBEEE606BC081986CF6A75E /* SystemConfiguration.framework */; };
-		8D020DFEE00EB8675A0F0B84B1511310 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D35A6727FD0A324D4122C0A2B0127 /* ReplaceMe.m */; };
 		8E8713E178173C8D37948AAD4BC65939 /* Pods-OCRequest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD79BF2571A240A27EC753AF9EABD46 /* Pods-OCRequest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		902D3AC77A4A0EC157689DE43D067594 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CC58D145013335725CA8283CE9AA3B /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B43F7477EF0E6DCB6FE62FA250BB0AB /* YTKChainRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = F154A0F6444361C91BC833F9566325F9 /* YTKChainRequestAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +45,9 @@
 		B137C990B220BDC9117C01A9C2D5C302 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BA775680536C98040D2A70C79BB59F06 /* YTKNetworkConfig.m */; };
 		B3C54AC8411599E10626E5205BFAB0C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD415AB5E6821F8F90B6EB038FB2EB0D /* Foundation.framework */; };
 		BF771AF8C367F22A2D5FCB0138659E2C /* Pods-OCRequest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BA45F4BD1C6BDBBF48869E35805BC7 /* Pods-OCRequest_Example-dummy.m */; };
+		C7140211245A6E25003DCF1D /* TestAB.h in Headers */ = {isa = PBXBuildFile; fileRef = C714020F245A6E25003DCF1D /* TestAB.h */; };
+		C7140212245A6E25003DCF1D /* TestAB.m in Sources */ = {isa = PBXBuildFile; fileRef = C7140210245A6E25003DCF1D /* TestAB.m */; };
+		C7140213245A6E51003DCF1D /* TestAB.h in Headers */ = {isa = PBXBuildFile; fileRef = C714020F245A6E25003DCF1D /* TestAB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE5CC612C3F38DF0A06DBDBD06E8E0C4 /* YTKBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5705C6EDD2B03C90211E681375BBB6 /* YTKBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0980C71911473441090C67AA4EAF5E3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DD7975CDA4CAEE973A12D4D3766CAB /* CFNetwork.framework */; };
 		D2D2653138CB0F2BA24E3960957365B8 /* YTKNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C36A8933D4D09B6A75E130F4946700E /* YTKNetworkAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -170,7 +172,8 @@
 		BA775680536C98040D2A70C79BB59F06 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTKNetworkConfig.m; path = YTKNetwork/YTKNetworkConfig.m; sourceTree = "<group>"; };
 		C40DC5F83FEC3566CC736216E45133F8 /* YTKNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YTKNetwork-Info.plist"; sourceTree = "<group>"; };
 		C6FC65485C373E83283EF3C27610CA07 /* YTKNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTKNetwork-umbrella.h"; sourceTree = "<group>"; };
-		CA1D35A6727FD0A324D4122C0A2B0127 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OCRequest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C714020F245A6E25003DCF1D /* TestAB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestAB.h; path = OCRequest/Classes/TestAB.h; sourceTree = "<group>"; };
+		C7140210245A6E25003DCF1D /* TestAB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestAB.m; path = OCRequest/Classes/TestAB.m; sourceTree = "<group>"; };
 		CD415AB5E6821F8F90B6EB038FB2EB0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE42622A6BB898167F2ED69C3A6242DB /* YTKBatchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTKBatchRequest.h; path = YTKNetwork/YTKBatchRequest.h; sourceTree = "<group>"; };
 		CF790C56527C72356733A13BF3D2E41E /* OCRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -422,9 +425,10 @@
 		A8011465DC218B7E035F44EED929386C /* OCRequest */ = {
 			isa = PBXGroup;
 			children = (
-				CA1D35A6727FD0A324D4122C0A2B0127 /* ReplaceMe.m */,
 				04D4A1D361CB2A7D60B8AA967E081353 /* Pod */,
 				46848F5E67A3BC791BBA0D5D6BF8D4FA /* Support Files */,
+				C714020F245A6E25003DCF1D /* TestAB.h */,
+				C7140210245A6E25003DCF1D /* TestAB.m */,
 			);
 			name = OCRequest;
 			path = ../..;
@@ -511,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EEC04421039D95DF80C0F65887442A9 /* OCRequest-umbrella.h in Headers */,
+				C7140213245A6E51003DCF1D /* TestAB.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +560,7 @@
 				902D3AC77A4A0EC157689DE43D067594 /* AFCompatibilityMacros.h in Headers */,
 				2606153E172A2589B093226B741CE334 /* AFHTTPSessionManager.h in Headers */,
 				D7D25B5722CE584AA6169CA5B9731854 /* AFNetworking-umbrella.h in Headers */,
+				C7140211245A6E25003DCF1D /* TestAB.h in Headers */,
 				A2067385E34E2BF10E2DEF909C4AAE04 /* AFNetworkReachabilityManager.h in Headers */,
 				EAC3FFEA80CFE0DD55C11B4448DC8324 /* AFSecurityPolicy.h in Headers */,
 				9C7AC9B98D9DC891A33141AAA551E968 /* AFURLRequestSerialization.h in Headers */,
@@ -758,6 +764,7 @@
 				252C9BD279B53A5D6A5074D4BC1E9CC5 /* AFSecurityPolicy.m in Sources */,
 				004E949DF07AE7B4A83FA37F94F9E3A7 /* AFURLRequestSerialization.m in Sources */,
 				66589771977CB13B36E51766DF20CB97 /* AFURLResponseSerialization.m in Sources */,
+				C7140212245A6E25003DCF1D /* TestAB.m in Sources */,
 				FE795EDCFA8A9712C7CEF3421A8B7823 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,7 +774,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2524B4922CF89586CCCE79E5456A1D2 /* OCRequest-dummy.m in Sources */,
-				8D020DFEE00EB8675A0F0B84B1511310 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
