@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'OCRequest_Example' do
+  pod 'OCRequest', :path => '../'
+
+  target 'OCRequest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
