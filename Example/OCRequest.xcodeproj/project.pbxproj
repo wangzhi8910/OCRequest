@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21EA188E6DDCB7BCD1518CB5 /* OCRequest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OCRequest.podspec; path = ../OCRequest.podspec; sourceTree = "<group>"; };
+		21EA188E6DDCB7BCD1518CB5 /* OCRequest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCRequest.podspec; path = ../OCRequest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3135BA64635448613B3E1881 /* Pods-OCRequest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRequest_Tests.release.xcconfig"; path = "Target Support Files/Pods-OCRequest_Tests/Pods-OCRequest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3657DBF02A6632492A8DF5C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3657DBF02A6632492A8DF5C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3E29872F016FCDDFF93DE520 /* Pods-OCRequest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRequest_Example.debug.xcconfig"; path = "Target Support Files/Pods-OCRequest_Example/Pods-OCRequest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		40CE3E5795B4C1355EA021C0 /* Pods-OCRequest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRequest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OCRequest_Tests/Pods-OCRequest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OCRequest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRequest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99A1A3A79374EA499F9BA1EE /* Pods_OCRequest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRequest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B19D61C4BEC6F046C04301 /* Pods_OCRequest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRequest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3DB8050ED5BC6832F52E694 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3DB8050ED5BC6832F52E694 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB24333BA598A24CABB54A6F /* Pods-OCRequest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRequest_Example.release.xcconfig"; path = "Target Support Files/Pods-OCRequest_Example/Pods-OCRequest_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				40CE3E5795B4C1355EA021C0 /* Pods-OCRequest_Tests.debug.xcconfig */,
 				3135BA64635448613B3E1881 /* Pods-OCRequest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,11 +346,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OCRequest_Example/Pods-OCRequest_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/OCRequest/OCRequest.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCRequest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

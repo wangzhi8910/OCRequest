@@ -1,0 +1,28 @@
+{
+  "name": "OCRequest",
+  "version": "0.1.0",
+  "summary": "A short description of OCRequest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangzhi8910/OCRequest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangzhi8910": "zhi.wang@2339.com"
+  },
+  "source": {
+    "git": "https://github.com/wangzhi8910/OCRequest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OCRequest/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "YTKNetwork": [
+
+    ]
+  }
+}
